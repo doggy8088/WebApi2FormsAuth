@@ -14,8 +14,8 @@ namespace WebApiSite
         {
             // Web API 設定和服務
             // 將 Web API 設定成僅使用 bearer 權杖驗證。
-            config.SuppressDefaultHostAuthentication();
-            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+            //config.SuppressDefaultHostAuthentication();
+            //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
             // Web API 路由
             config.MapHttpAttributeRoutes();
